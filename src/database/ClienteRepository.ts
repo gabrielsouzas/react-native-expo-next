@@ -1,4 +1,3 @@
-// import { executeTransaction } from './SQLiteDatabase';
 import {
   bulkTransaction,
   executeTransaction,
