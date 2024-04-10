@@ -63,11 +63,3 @@ ClienteRepository.all()
 - [Documentação do Expo SQLite Next](https://docs.expo.dev/versions/latest/sdk/sqlite-next/)
 
 - Para mais detalhes sobre o uso do ClienteRepository, consulte o código fonte em ClienteRepository.ts.
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar uma pull request.
-
-## 📄 Licença
-
-Este projeto é licenciado sob a [MIT License](https://opensource.org/license/mit).
