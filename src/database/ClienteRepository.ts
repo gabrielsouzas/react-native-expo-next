@@ -98,6 +98,22 @@ export default class ClienteRepository {
     }
   }
 
+  public async allByNome(nome: string) {
+    try {
+      const result = await executeTransaction(
+        'SELECT * FROM clientes WHERE nome = ?;',
+        nome
+      );
+      return result;
+    } catch (error: any) {
+      console.log(
+        '[ClienteRepository] Erro ao buscar registro no banco de dados. Erro: ',
+        error || error.message
+      );
+      return error;
+    }
+  }
+
   public async getById(idcliente: number) {
     try {
       const result = await executeTransaction(
